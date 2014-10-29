@@ -102,3 +102,5 @@ obj-$(CONFIG_TOUCHSCREEN_MMS136)	+= melfas_ts.o
 obj-$(CONFIG_TOUCHSCREEN_MMS136)	+= mms136_ISP_download.o
 obj-$(CONFIG_TOUCHSCREEN_MMS136)	+= mms136_ISC_download.o
 obj-$(CONFIG_TS_INFO_CLASS) += ts_class.o
+
+EXTRA_CFLAGS += -Wno-unused-variable
